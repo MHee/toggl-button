@@ -57,6 +57,9 @@
     "*://*.basecamphq.com/*",
     "*://*.atlassian.net/*",
     "*://*.jira.com/*",
+    "*://jira.neptune.uvic.ca/*",
+    "*://wiki.oceannetworks.ca/*",
+    "*://internal.oceannetworks.ca/*",
     "*://*.producteev.com/*",
     "*://*.bitbucket.org/*",
     "*://*.sifterapp.com/*",
@@ -156,6 +159,9 @@
         "*://*.atlassian.net/*",
         "*://*.atlassian.com/*",
         "*://*.jira.com/*",
+        "*://jira.neptune.uvic.ca/*",
+        "*://wiki.oceannetworks.ca/*",
+        "*://internal.oceannetworks.ca/*",
         "*://*.producteev.com/*",
         "*://*.sifterapp.com/*",
         "*://docs.google.com/*",
@@ -309,7 +315,9 @@
     {
       "matches": [
         "*://*.atlassian.net/wiki/*",
-        "*://*.atlassian.com/wiki/*"
+        "*://*.atlassian.com/wiki/*",
+        "*://wiki.oceannetworks.ca/*",
+        "*://internal.oceannetworks.ca/*"
       ],
       "js": ["scripts/content/confluence.js"]
     },
@@ -317,7 +325,8 @@
       "matches": [
         "*://*.atlassian.net/*",
         "*://*.atlassian.com/*",
-        "*://*.jira.com/*"
+        "*://*.jira.com/*",
+        "*://jira.neptune.uvic.ca/*"
       ],
       "js": ["scripts/content/jira.js"]
     },
